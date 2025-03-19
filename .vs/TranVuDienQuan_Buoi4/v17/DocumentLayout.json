@@ -1,0 +1,632 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LTW\\TranVuDienQuan_Buoi4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\tranvudienquan_buoi4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\tranvudienquan_buoi4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\migrations\\20250315070530_morongidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\migrations\\20250315070530_morongidentityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\migrations\\20250315055857_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\migrations\\20250315055857_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\migrations\\20250308062715_khoitaodulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\migrations\\20250308062715_khoitaodulieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|c:\\ltw\\tranvudienquan_buoi4\\tranvudienquan_buoi4\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA86CE5-86F6-4115-8CC8-8F1C43A1CD7C}|TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj|solutionrelative:tranvudienquan_buoi4\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T09:23:21.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:01:05.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\SD.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\SD.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\SD.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:38:02.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Program.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Program.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Program.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:16:30.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-15T06:13:31.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Update.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Categories\\Update.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Update.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Categories\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:45:07.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T06:23:46.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:12:50.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T07:24:17.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAuwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:14:19.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TranVuDienQuan_Buoi4",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T08:30:43.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\appsettings.json",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\appsettings.json",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\appsettings.json",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T06:19:58.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T07:39:21.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:51:17.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250315070530_morongIdentityUser.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250315070530_morongIdentityUser.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Migrations\\20250315070530_morongIdentityUser.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250315070530_morongIdentityUser.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Migrations\\20250315070530_morongIdentityUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:05:31.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ProductImage.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:11:34.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\Product.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\Product.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:10:29.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250315055857_AddIdentity.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250315055857_AddIdentity.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Migrations\\20250315055857_AddIdentity.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250315055857_AddIdentity.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Migrations\\20250315055857_AddIdentity.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAgwN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:58:58.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\Category.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\Category.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:09:28.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:19:24.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T07:43:44.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:28:36.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwIEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:24:37.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:34:04.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Add.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Categories\\Add.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Add.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Categories\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:39:14.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:40:19.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Display.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Categories\\Display.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Categories\\Display.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Categories\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:42:59.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T07:29:25.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T08:04:05.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Product\\Display.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T07:38:19.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250308062715_KhoiTaoDuLieu.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250308062715_KhoiTaoDuLieu.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Migrations\\20250308062715_KhoiTaoDuLieu.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Migrations\\20250308062715_KhoiTaoDuLieu.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Migrations\\20250308062715_KhoiTaoDuLieu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:27:16.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T07:33:23.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\EFProductRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Repositories\\EFProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:07:44.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\EFCategoryRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Repositories\\EFCategoryRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:08:30.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:05:55.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_Buoi4\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_Buoi4\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:07:08.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
