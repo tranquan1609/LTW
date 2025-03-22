@@ -1,55 +1,163 @@
 ﻿@model TranVuDienQuan_Buoi4.Models.Product
-@using Microsoft.AspNetCore.Mvc.Rendering
-@{
-	ViewData["Title"] = "Edit Product";
-}
-<h2>Edit Product</h2>
-<form asp-action="Update" method="post" enctype="multipart/form-data">
-	<input type="hidden" asp-for="Id" />
-	<div class="form-group">
-		<label asp-for="Name"></label>
-		<input asp-for="Name" class="form-control" />
-		<span asp-validation-for="Name" class="text-danger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="Price"></label>
-		<input asp-for="Price" class="form-control" />
-		<span asp-validation-for="Price" class="text-danger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="Description"></label>
-<textarea asp-for="Description" class="form-control"></textarea>
-		<span asp-validation-for="Description" class="textdanger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="CategoryId">Category</label>
-		<select asp-for="CategoryId" asp-items="@ViewBag.Categories"
-				class="form-control"></select>
-	</div>
-	<div class="form-group">
-		<label asp-for="ImageUrl">Product Image</label>
-		<input type="file" asp-for="ImageUrl" class="form-control"
-			   id="imageInput" />
-		<div class="form-group">
-			<input type="submit" value="Save" class="btn btn-primary" />
-		</div>
-		<img src="@Model.ImageUrl" alt="Product Image" style="maxwidth:200px;" id="previewImage" />
-	</div>
-	<script>
-		document.querySelectorAll('input[type="file"]').forEach(input => {
-		input.addEventListener('change', function (event) {
-		const file = event.target.files[0];
-		if (file) {
-		const reader = new FileReader();
-		reader.onload = function (e) {
-		const img = document.getElementById("previewImage")
-		img.src = e.target.result
-		};
-				reader.readAsDataURL(file);
-				}
-			});
-		});
-	</script>
-	<br />
-	<button type="submit" class="btn btn-primary">Update</button>
+
+<h2 class="text-center">🔄 Update Product</h2>
+
+<form asp-action="Update" method="post" enctype="multipart/form-data" class="product-form">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">📌 Product Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">💲 Price</label>
+        <input asp-for="Price" type="number" class="form-control" required min="0" step="0.01" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">📝 Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">📂 Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select"></select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">🖼️ Current Image</label>
+        <div class="preview-container">
+            <img src="@Model.ImageUrl" class="preview-img" id="currentImage" alt="Current Image" />
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">🆕 New Image</label>
+        <input type="file" name="imageUrl" class="form-control" accept="image/png, image/jpeg, image/jpg" onchange="previewImage(event)" />
+        <span class="text-muted">Accepted formats: PNG, JPG, JPEG</span>
+        <div class="preview-container mt-2">
+            <img id="preview" class="preview-img d-none" alt="New Image Preview" />
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">✅ Update Product</button>
+        <a asp-action="Index" class="btn btn-secondary">⬅️ Back to List</a>
+    </div>
 </form>
+
+@section Scripts {
+    <script>
+        function previewImage(event) {
+            let file = event.target.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    let preview = document.getElementById("preview");
+                    preview.src = e.target.result;
+                    preview.classList.remove("d-none");
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        (function () {
+            'use strict';
+            document.querySelector('form').addEventListener('submit', function (e) {
+                let fileInput = document.querySelector('input[name="imageUrl"]');
+                let file = fileInput.files[0];
+                if (file && !['image/png', 'image/jpeg', 'image/jpg'].includes(file.type)) {
+                    alert("⚠️ Only PNG, JPG, and JPEG images are allowed.");
+                    e.preventDefault();
+                }
+            });
+        })();
+    </script>
+}
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .product-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+        }
+
+    .text-muted {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        border: none;
+        color: white;
+    }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #0056b3, #004085);
+            transform: scale(1.05);
+        }
+
+    .btn-secondary {
+        background: linear-gradient(135deg, #6c757d, #495057);
+        border: none;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #495057, #343a40);
+            transform: scale(1.05);
+        }
+
+    .preview-container {
+        text-align: center;
+    }
+
+    .preview-img {
+        max-width: 150px;
+        height: auto;
+        margin-top: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+</style>

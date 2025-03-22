@@ -1,0 +1,82 @@
+﻿@model TranVuDienQuan_Buoi4.Models.Order
+
+@{
+    ViewData["Title"] = "Chi Tiết Đơn Hàng";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">
+        <i class="fas fa-shopping-cart"></i> Chi Tiết Đơn Hàng
+    </h2>
+
+    <!-- Thông tin khách hàng -->
+    <div class="card my-3">
+        <div class="card-header bg-primary text-white">
+            <i class="fas fa-user"></i> Thông Tin Khách Hàng
+        </div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+                <li><strong>👤 Tên:</strong> @Model.ApplicationUser.FullName</li>
+                <li><strong>📧 Email:</strong> @Model.ApplicationUser.Email</li>
+                <li><strong>📞 Số điện thoại:</strong> @Model.ApplicationUser.PhoneNumber</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Thông tin đặt hàng -->
+    <div class="card my-3">
+        <div class="card-header bg-secondary text-white">
+            <i class="fas fa-box"></i> Thông Tin Đặt Hàng
+        </div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+                <li><strong>📦 Mã đơn:</strong> @Model.Id</li>
+                <li><strong>📅 Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</li>
+                <li><strong>📍 Địa chỉ giao hàng:</strong> @Model.ShippingAddress</li>
+                <li><strong>📝 Ghi chú của khách:</strong> @Model.Notes</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Danh sách sản phẩm -->
+    <div class="card my-3">
+        <div class="card-header bg-success text-white">
+            <i class="fas fa-box-open"></i> Sản Phẩm Trong Đơn Hàng
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered text-center">
+                <thead class="table-success">
+                    <tr>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderDetails)
+                    {
+                        <tr>
+                            <td>@item.ProductId</td>
+                            <td>@item.Product.Name</td>
+                            <td class="text-center">@item.Quantity</td>
+                            <td class="text-end">@item.Price.ToString("N0")</td>
+                            <td class="text-end fw-bold">@((item.Quantity * item.Price).ToString("N0"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Tổng tiền và nút quay lại -->
+    <div class="d-flex justify-content-between align-items-center">
+        <h4 class="text-danger">
+            <i class="fas fa-coins"></i> Tổng tiền: <strong>@Model.TotalPrice.ToString("N0")</strong>
+        </h4>
+        <a href="@Url.Action("Index", "Orders")" class="btn btn-primary">
+            <i class="fas fa-arrow-left"></i> Quay lại danh sách
+        </a>
+    </div>
+</div>

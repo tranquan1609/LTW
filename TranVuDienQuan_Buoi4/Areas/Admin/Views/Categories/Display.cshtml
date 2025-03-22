@@ -1,8 +1,58 @@
 ﻿@model TranVuDienQuan_Buoi4.Models.Category
+
 <h2>Category: @Model.Name</h2>
 
-<div>
+<div class="category-container">
     <p><strong>Category ID:</strong> @Model.Id</p>
 </div>
 
 <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    .category-container {
+        background: white;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        font-size: 18px;
+        color: #333;
+        margin: 10px 0;
+    }
+
+    .btn-secondary {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #6c757d, #495057);
+        border: none;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #495057, #343a40);
+            transform: scale(1.05);
+        }
+</style>

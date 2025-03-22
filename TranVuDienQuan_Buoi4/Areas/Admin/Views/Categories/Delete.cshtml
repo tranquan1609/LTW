@@ -1,11 +1,98 @@
 ﻿@model TranVuDienQuan_Buoi4.Models.Category
 
-<h2>Delete Category</h2>
+@{
+    ViewData["Title"] = "Delete Category";
+}
 
-<form asp-action="DeleteConfirmed" method="post">
-    <input type="hidden" asp-for="Id" />
-    <p>Are you sure you want to delete the category <strong>@Model.Name</strong>?</p>
+<div class="delete-category-header">
+    <h2>⚠️ Delete Category</h2>
+</div>
 
-    <button type="submit" class="btn btn-danger">Delete</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
-</form>
+<div class="delete-category-container">
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <p class="delete-message">
+            Are you sure you want to delete the category <strong>@Model.Name</strong>?
+        </p>
+
+        <div class="btn-group">
+            <button type="submit" class="btn btn-delete">🗑️ Delete</button>
+            <a asp-action="Index" class="btn btn-cancel">❌ Cancel</a>
+        </div>
+    </form>
+</div>
+
+<style>
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #f8d7da;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .delete-category-header h2 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #a71d2a;
+        margin-bottom: 15px;
+    }
+
+    .delete-category-container {
+        background: white;
+        padding: 25px;
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border: 2px solid #dc3545;
+    }
+
+    .delete-message {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #dc3545, #a71d2a);
+        color: white;
+        border: none;
+    }
+
+        .btn-delete:hover {
+            background: linear-gradient(135deg, #a71d2a, #6c0f17);
+            transform: scale(1.05);
+        }
+
+    .btn-cancel {
+        background: linear-gradient(135deg, #6c757d, #495057);
+        color: white;
+        border: none;
+    }
+
+        .btn-cancel:hover {
+            background: linear-gradient(135deg, #495057, #343a40);
+            transform: scale(1.05);
+        }
+
+    }
+</style>

@@ -1,35 +1,159 @@
 ﻿@model TranVuDienQuan_Buoi4.Models.Product
-@using Microsoft.AspNetCore.Mvc.Rendering
-@{
-	ViewData["Title"] = "Add Product";
-}
-<h2>Add Product</h2>
-<form asp-action="Add" method="post" enctype="multipart/form-data">
-	<div class="form-group">
-		<label asp-for="Name"></label>
-		<input asp-for="Name" class="form-control" />
-		<span asp-validation-for="Name" class="text-danger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="Price"></label>
-		<input asp-for="Price" class="form-control" />
-		<span asp-validation-for="Price" class="text-danger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="Description"></label>
-<textarea asp-for="Description" class="form-control"></textarea>
-		<span asp-validation-for="Description" class="textdanger"></span>
-	</div>
-	<div class="form-group">
-		<label asp-for="CategoryId">Category</label>
-		<select asp-for="CategoryId" asp-items="ViewBag.Categories"
-				class="form-control"></select>
-	</div>
-	<div class="form-group">
-		<label asp-for="ImageUrl">Product Image</label>
-		<input type="file" asp-for="ImageUrl" class="form-control" />
-	</div>
-	<br />
-	<button type="submit" class="btn btn-primary">Add</button>
+
+<h2 class="text-center">➕ Add New Product</h2>
+
+<form asp-action="Add" method="post" enctype="multipart/form-data" class="product-form">
+    <div class="mb-3">
+        <label class="form-label">📌 Product Name</label>
+        <input asp-for="Name" class="form-control" placeholder="Enter product name" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">💲 Price</label>
+        <input asp-for="Price" type="number" class="form-control" placeholder="Enter price" required min="0" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">📝 Description</label>
+        <textarea asp-for="Description" class="form-control" placeholder="Enter description"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">📂 Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select" required>
+            <option value="">-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">🖼️ Image</label>
+        <input type="file" name="imageUrl" class="form-control" accept="image/png, image/jpeg, image/jpg" required onchange="previewImage(event)" />
+        <span class="text-muted">Accepted formats: PNG, JPG, JPEG</span>
+        <div class="preview-container mt-2">
+            <img id="preview" class="preview-img d-none" alt="Image Preview" />
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-success">✅ Add Product</button>
+        <a asp-action="Index" class="btn btn-secondary">⬅️ Back to List</a>
+    </div>
 </form>
 
+@section Scripts {
+    <script>
+        function previewImage(event) {
+            let file = event.target.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    let preview = document.getElementById("preview");
+                    preview.src = e.target.result;
+                    preview.classList.remove("d-none");
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        (function () {
+            'use strict';
+            document.querySelector('form').addEventListener('submit', function (e) {
+                let fileInput = document.querySelector('input[name="imageUrl"]');
+                let file = fileInput.files[0];
+                if (file && !['image/png', 'image/jpeg', 'image/jpg'].includes(file.type)) {
+                    alert("⚠️ Only PNG, JPG, and JPEG images are allowed.");
+                    e.preventDefault();
+                }
+            });
+        })();
+    </script>
+}
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .product-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 8px rgba(40, 167, 69, 0.3);
+        }
+
+    .text-muted {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-success {
+        background: linear-gradient(135deg, #28a745, #1c7430);
+        border: none;
+        color: white;
+    }
+
+        .btn-success:hover {
+            background: linear-gradient(135deg, #1c7430, #155724);
+            transform: scale(1.05);
+        }
+
+    .btn-secondary {
+        background: linear-gradient(135deg, #6c757d, #495057);
+        border: none;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #495057, #343a40);
+            transform: scale(1.05);
+        }
+
+    .preview-container {
+        text-align: center;
+    }
+
+    .preview-img {
+        max-width: 150px;
+        height: auto;
+        margin-top: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+</style>

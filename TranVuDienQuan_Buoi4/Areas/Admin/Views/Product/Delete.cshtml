@@ -1,7 +1,97 @@
 ﻿@model TranVuDienQuan_Buoi4.Models.Product
-<h2>Delete Product</h2>
-<form asp-action="DeleteConfirmed" method="post">
-	<input type="hidden" asp-for="Id" />
-	<p>Are you sure you want to delete @Model.Name?</p>
-	<button type="submit" class="btn btn-danger">Delete</button>
-</form>
+
+<h2 class="text-center text-danger">⚠️ Delete Product</h2>
+
+<div class="delete-container">
+    <p class="delete-message">
+        Are you sure you want to delete the product <strong>@Model.Name</strong>?
+    </p>
+
+    <div class="preview-container">
+        <img src="@Model.ImageUrl" class="preview-img" alt="Product Image" />
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="btn-group">
+            <button type="submit" class="btn btn-danger">🗑 Confirm Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">⬅️ Cancel</a>
+        </div>
+    </form>
+</div>
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .delete-container {
+        background: white;
+        padding: 30px;
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .delete-message {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .preview-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .preview-img {
+        max-width: 150px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-danger {
+        background: linear-gradient(135deg, #dc3545, #a71d2a);
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background: linear-gradient(135deg, #a71d2a, #6c0f17);
+            transform: scale(1.05);
+        }
+
+    .btn-secondary {
+        background: linear-gradient(135deg, #6c757d, #495057);
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #495057, #343a40);
+            transform: scale(1.05);
+        }
+</style>

@@ -1,33 +1,154 @@
 ﻿@model IEnumerable<TranVuDienQuan_Buoi4.Models.Product>
-<h2>Products</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Description</th>
-            <th>Images</th>
-            <th>Category</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in Model)
-        {
+
+<h2>📦 Product List</h2>
+
+<div class="product-container">
+    <table class="table product-table">
+        <thead>
             <tr>
-                <td>@product.Name</td>
-                <td>@product.Price</td>
-                <td>@product.Description</td>
-                <td>
-                    <img src="@product.ImageUrl" alt="Product Image" style="width: 100px; height: auto;" />
-                </td>
-                <td>@product.Category?.Name</td>
-                <td>
-                    <a asp-action="Display" asp-route-id="@product.Id">View</a> |
-                    <a asp-action="Update" asp-route-id="@product.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
-                </td>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Actions</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@product.ImageUrl" alt="Product Image" class="product-image" />
+                    </td>
+                    <td>@product.Name</td>
+                    <td>$@product.Price</td>
+                    <td>@product.Description</td>
+                    <td>@product.Category?.Name</td>
+                    <td>
+                        <a asp-action="Display" asp-route-id="@product.Id" class="btn btn-info">👁️ View</a>
+                        <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">✏️ Edit</a>
+                        <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">🗑️ Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="Add" class="btn btn-success add-product-btn">➕ Add New Product</a>
+
+<style>
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .product-container {
+        background: white;
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .product-table thead {
+            background: #007bff;
+            color: white;
         }
-    </tbody>
-</table>
+
+            .product-table thead th {
+                text-align: center;
+                padding: 12px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+        .product-table tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+            .product-table tbody tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+        .product-table tbody td {
+            padding: 12px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .product-table tbody tr:hover {
+            background-color: #e9ecef;
+            transition: 0.3s;
+        }
+
+    .product-image {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .btn-info {
+        background: linear-gradient(135deg, #17a2b8, #117a8b);
+        color: white;
+        border: none;
+    }
+
+    .btn-warning {
+        background: linear-gradient(135deg, #ffc107, #d39e00);
+        color: white;
+        border: none;
+    }
+
+    .btn-danger {
+        background: linear-gradient(135deg, #dc3545, #a71d2a);
+        color: white;
+        border: none;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+    }
+
+    .add-product-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 12px 20px;
+        font-size: 16px;
+        background: linear-gradient(135deg, #28a745, #1c7430);
+        color: white;
+        border: none;
+        border-radius: 8px;
+    }
+
+        .add-product-btn:hover {
+            background: linear-gradient(135deg, #1c7430, #155724);
+            transform: scale(1.05);
+        }
+</style>

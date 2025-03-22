@@ -1,31 +1,169 @@
 ﻿@model IEnumerable<TranVuDienQuan_Buoi4.Models.Category>
 
-<h2>Categories</h2>
+@{
+    ViewData["Title"] = "Categories";
+}
 
-<p>
-    <a asp-action="Add" class="btn btn-primary">Add New Category</a>
-</p>
+<div class="category-header">
+    <h2>📂 Categories Management</h2>
+    <a asp-action="Add" class="btn btn-add">➕ Add Category</a>
+</div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Category Name</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var category in Model)
-        {
+<div class="category-container">
+    <table class="category-table">
+        <thead>
             <tr>
-                <td>@category.Id</td>
-                <td>@category.Name</td>
-                <td>
-                    <a asp-action="Display" asp-route-id="@category.Id" class="btn btn-info">View</a>
-                    <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">Delete</a>
-                </td>
+                <th>ID</th>
+                <th>Category Name</th>
+                <th>Actions</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                    <td class="actions">
+                        <a asp-action="Display" asp-route-id="@category.Id" class="btn btn-view">👁 View</a>
+                        <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-edit">✏ Edit</a>
+                        <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-delete">🗑 Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #f3f4f6;
+        color: #333;
+        padding: 20px;
+    }
+
+    .category-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+        .category-header h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: #2c3e50;
         }
-    </tbody>
-</table>
+
+    .btn-add {
+        background: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+    }
+
+        .btn-add:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+
+    .category-container {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .category-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+        .category-table th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .category-table td {
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .category-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .category-table tr:hover {
+            background: #eaf2ff;
+            transition: 0.3s;
+        }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-view {
+        background: #17a2b8;
+    }
+
+    .btn-edit {
+        background: #f39c12;
+    }
+
+    .btn-delete {
+        background: #e74c3c;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+    }
+
+
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-add {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    }
+</style>

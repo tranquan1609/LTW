@@ -4,16 +4,110 @@
     ViewData["Title"] = "Add Category";
 }
 
-<h2>Add Category</h2>
+<h2 class="text-center"></h2>
 
-<form asp-action="Add" method="post">
-    <div class="form-group">
-        <label asp-for="Name">Category Name</label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <br />
-    <button type="submit" class="btn btn-primary">Add Category</button>
-</form>
+<div class="add-category-container">
+    <form asp-action="Add" method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Category Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter category name" required />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
 
-<a asp-action="Index" class="btn btn-secondary mt-2">Back to List</a>
+        <div class="btn-group">
+            <button type="submit" class="btn btn-gradient">Add Category</button>
+            <a asp-action="Index" class="btn btn-outline">Back to List</a>
+        </div>
+    </form>
+</div>
+
+<style>
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, #74b9ff, #a29bfe);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-category-container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        max-width: 500px;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        padding: 12px;
+        transition: 0.3s;
+    }
+
+        .form-control:focus {
+            border-color: #6c5ce7;
+            box-shadow: 0 0 10px rgba(108, 92, 231, 0.3);
+        }
+
+    .text-danger {
+        font-size: 14px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 15px;
+    }
+
+    .btn {
+        padding: 12px 18px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-gradient {
+        background: linear-gradient(135deg, #6c5ce7, #0984e3);
+        border: none;
+        color: white;
+    }
+
+        .btn-gradient:hover {
+            background: linear-gradient(135deg, #5b4acc, #0767b3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+    .btn-outline {
+        background: transparent;
+        border: 2px solid #6c5ce7;
+        color: #6c5ce7;
+    }
+
+        .btn-outline:hover {
+            background: #6c5ce7;
+            color: white;
+            transform: translateY(-2px);
+        }
+</style>

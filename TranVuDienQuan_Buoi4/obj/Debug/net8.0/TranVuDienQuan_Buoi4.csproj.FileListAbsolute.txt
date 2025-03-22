@@ -146,7 +146,6 @@ C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.MvcApplicationPartsAssemblyInfo.cache
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.RazorAssemblyInfo.cache
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.RazorAssemblyInfo.cs
-C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\scopedcss\bundle\TranVuDienQuan_Buoi4.styles.css
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\scopedcss\projectbundle\TranVuDienQuan_Buoi4.bundle.scp.css
 C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\staticwebassets.build.json
@@ -636,3 +635,6 @@ C:\Users\Administrator\Downloads\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\D
 C:\Users\Administrator\Downloads\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.pdb
 C:\Users\Administrator\Downloads\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.genruntimeconfig.cache
 C:\Users\Administrator\Downloads\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\ref\TranVuDienQuan_Buoi4.dll
+C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\TranVuDienQuan_Buoi4.sourcelink.json
+C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\LTW\TranVuDienQuan_Buoi4\TranVuDienQuan_Buoi4\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
