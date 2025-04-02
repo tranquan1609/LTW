@@ -17,6 +17,15 @@
                 Items.Add(item);
             }
         }
+        public void UpdateItem(int productId, int quantity)
+        {
+            var item = Items.FirstOrDefault(i => i.ProductId == productId);
+            if (item != null)
+            {
+                item.Quantity = quantity;
+            }
+        }
+
         public void RemoveItem(int productId)
         {
             Items.RemoveAll(i => i.ProductId == productId);

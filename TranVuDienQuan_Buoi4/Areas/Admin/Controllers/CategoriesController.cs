@@ -18,7 +18,7 @@ namespace TranVuDienQuan_Buoi4.Areas.Admin.Controllers
         }
 
         // Hiển thị danh sách danh mục
-        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee + "," + SD.Role_Customer)]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public async Task<IActionResult> Index()
         {
             var categories = await _categoryRepository.GetAllAsync();

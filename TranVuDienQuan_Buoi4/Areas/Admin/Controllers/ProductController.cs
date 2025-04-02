@@ -22,7 +22,7 @@ namespace TranVuDienQuan_Buoi4.Areas.Admin.Controllers
         }
 
         // Hiển thị danh sách sản phẩm
-        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee + "," + SD.Role_Customer)]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public async Task<IActionResult> Index()
         {
             var products = await _productRepository.GetAllAsync();

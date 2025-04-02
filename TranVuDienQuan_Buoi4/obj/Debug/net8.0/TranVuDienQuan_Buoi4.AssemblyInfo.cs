@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranVuDienQuan_Buoi4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03cd555dee23e6bc99ba1af06bb1c111a5b6efff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7583f4ab630275e8d6609386f92c06921038bcef")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranVuDienQuan_Buoi4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranVuDienQuan_Buoi4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

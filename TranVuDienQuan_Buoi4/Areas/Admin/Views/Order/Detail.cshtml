@@ -18,7 +18,7 @@
             <ul class="list-unstyled">
                 <li><strong>👤 Tên:</strong> @Model.ApplicationUser.FullName</li>
                 <li><strong>📧 Email:</strong> @Model.ApplicationUser.Email</li>
-                <li><strong>📞 Số điện thoại:</strong> @Model.ApplicationUser.PhoneNumber</li>
+				<li><strong>🏠 Địa chỉ:</strong> @Model.ApplicationUser.Address</li>
             </ul>
         </div>
     </div>
@@ -31,8 +31,9 @@
         <div class="card-body">
             <ul class="list-unstyled">
                 <li><strong>📦 Mã đơn:</strong> @Model.Id</li>
-                <li><strong>📅 Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</li>
+                <li><strong>📅 Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy ")</li>
                 <li><strong>📍 Địa chỉ giao hàng:</strong> @Model.ShippingAddress</li>
+				<li><strong>📞 Số điện thoại:</strong> @Model.PhoneNumber</li>
                 <li><strong>📝 Ghi chú của khách:</strong> @Model.Notes</li>
             </ul>
         </div>
@@ -75,7 +76,7 @@
         <h4 class="text-danger">
             <i class="fas fa-coins"></i> Tổng tiền: <strong>@Model.TotalPrice.ToString("N0")</strong>
         </h4>
-        <a href="@Url.Action("Index", "Orders")" class="btn btn-primary">
+        <a href="@Url.Action("index","Order")" class="btn btn-primary">
             <i class="fas fa-arrow-left"></i> Quay lại danh sách
         </a>
     </div>

@@ -10,6 +10,7 @@ namespace TranVuDienQuan_Buoi4.Models
         public string UserId { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
+        public string? PhoneNumber { get; set; }
         public string ShippingAddress { get; set; }
         public string Notes { get; set; }
         [ForeignKey("UserId")]

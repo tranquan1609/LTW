@@ -17,7 +17,7 @@ namespace TranVuDienQuan_Buoi4.Areas.Admin.Controllers
         {
             _context = context;
         }
-
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public async Task<IActionResult> Index()
         {
             var orders = await _context.Orders
@@ -25,7 +25,7 @@ namespace TranVuDienQuan_Buoi4.Areas.Admin.Controllers
                 .ToListAsync();
             return View(orders);
         }
-
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
         public async Task<IActionResult> Detail(int id)
         {
             var order = await _context.Orders

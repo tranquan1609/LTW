@@ -98,18 +98,22 @@ namespace TranVuDienQuan_Buoi4.Controllers
             if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống. Vui lòng thêm sản phẩm vào giỏ hàng trước khi thanh toán.";
                 return RedirectToAction("Index");
             }
 
             var user = await _userManager.GetUserAsync(User);
             order.UserId = user.Id;
             order.OrderDate = DateTime.UtcNow;
+            order.ShippingAddress = user.Address;
+            order.PhoneNumber = order.PhoneNumber;
             order.TotalPrice = cart.Items.Sum(i => i.Price * i.Quantity);
             order.OrderDetails = cart.Items.Select(i => new OrderDetail
             {
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
                 Price = i.Price
+
             }).ToList();
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
@@ -118,5 +122,18 @@ namespace TranVuDienQuan_Buoi4.Controllers
 
             return View("OrderCompleted", order.Id); // Trang xác nhận hoàn thành đơn hàng
         }
+
+        [HttpPost]
+        public IActionResult UpdateCart(int productId, int quantity)
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            if (cart != null)
+            {
+                cart.UpdateItem(productId, quantity);
+                HttpContext.Session.SetObjectAsJson("Cart", cart);
+            }
+            return RedirectToAction("Index");
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iJo3KzrVyBRuRm2UoK3/UnRhd3UM3AkHyDaY81LIaMM=",
+  "Hash": "J0rBZx0Hc547Gy0lIacXuc+r1YsSpuilB4MTx4dtQfU=",
   "Source": "TranVuDienQuan_Buoi4",
   "BasePath": "_content/TranVuDienQuan_Buoi4",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\banghe.jpeg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/banghe#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5a07lis7we",
+      "Integrity": "LToQi1ZPerBY93iJlZKPQAlZl80V4GNwR0qaEDp5vrI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banghe.jpeg"
+    },
+    {
       "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\bo-3-noi-inox-elmich-trimax-xr-el-3843-1-700x467.jpg",
       "SourceId": "TranVuDienQuan_Buoi4",
       "SourceType": "Discovered",
@@ -141,6 +162,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\download (2).jpeg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rd1x6qla5v",
+      "Integrity": "wTwe8dMOZdyY2RoWUdR6pr+VxnnLAJU/F6yBCr980rc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\maylanh.jpeg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/maylanh#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n43732wcua",
+      "Integrity": "aclVptJIud/qx6FtAhyLp5N3GtHaERfLhJUhVhB809A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\maylanh.jpeg"
     },
     {
       "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\OIP (1).jpeg",
@@ -204,6 +267,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\OIP.jpeg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tivi.jpg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/tivi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f0njtww33c",
+      "Integrity": "P3gJso+DlNks0hO32IivUZsuGNy0bZoWknc4rBo76dk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tivi.jpg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-lanh-lg-d22mb_1620557793.jpg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/tu-lanh-lg-d22mb_1620557793#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1d1e9gun45",
+      "Integrity": "m3iR9rOabrGmQjkaWRX606yAERMsMYOLeAvXIyA1NUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tu-lanh-lg-d22mb_1620557793.jpg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/tu-quan-ao-5-buong-2m-x-2m-TQA021#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0p869mcijd",
+      "Integrity": "fI0OtT/TAp22OUqRe8g8XXTPl1+gEEwLQOThBsAjqpo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg"
+    },
+    {
+      "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\vivo.jpeg",
+      "SourceId": "TranVuDienQuan_Buoi4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\",
+      "BasePath": "_content/TranVuDienQuan_Buoi4",
+      "RelativePath": "images/vivo#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwynyhethr",
+      "Integrity": "dnZKpZCHJC5lY7ozTsb+BKY7S9aZLL/mdKSAKY9TB9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vivo.jpeg"
     },
     {
       "Identity": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\js\\site.js",
@@ -5070,6 +5217,88 @@
       ]
     },
     {
+      "Route": "images/banghe.5a07lis7we.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\banghe.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LToQi1ZPerBY93iJlZKPQAlZl80V4GNwR0qaEDp5vrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5a07lis7we"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banghe.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LToQi1ZPerBY93iJlZKPQAlZl80V4GNwR0qaEDp5vrI="
+        }
+      ]
+    },
+    {
+      "Route": "images/banghe.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\banghe.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LToQi1ZPerBY93iJlZKPQAlZl80V4GNwR0qaEDp5vrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LToQi1ZPerBY93iJlZKPQAlZl80V4GNwR0qaEDp5vrI="
+        }
+      ]
+    },
+    {
       "Route": "images/bo-3-noi-inox-elmich-trimax-xr-el-3843-1-700x467.jpg",
       "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\bo-3-noi-inox-elmich-trimax-xr-el-3843-1-700x467.jpg",
       "Selectors": [],
@@ -5234,6 +5463,170 @@
       ]
     },
     {
+      "Route": "images/may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wTwe8dMOZdyY2RoWUdR6pr+VxnnLAJU/F6yBCr980rc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wTwe8dMOZdyY2RoWUdR6pr+VxnnLAJU/F6yBCr980rc="
+        }
+      ]
+    },
+    {
+      "Route": "images/may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.rd1x6qla5v.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wTwe8dMOZdyY2RoWUdR6pr+VxnnLAJU/F6yBCr980rc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:50:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rd1x6qla5v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wTwe8dMOZdyY2RoWUdR6pr+VxnnLAJU/F6yBCr980rc="
+        }
+      ]
+    },
+    {
+      "Route": "images/maylanh.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\maylanh.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aclVptJIud/qx6FtAhyLp5N3GtHaERfLhJUhVhB809A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:51:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aclVptJIud/qx6FtAhyLp5N3GtHaERfLhJUhVhB809A="
+        }
+      ]
+    },
+    {
+      "Route": "images/maylanh.n43732wcua.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\maylanh.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aclVptJIud/qx6FtAhyLp5N3GtHaERfLhJUhVhB809A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:51:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n43732wcua"
+        },
+        {
+          "Name": "label",
+          "Value": "images/maylanh.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aclVptJIud/qx6FtAhyLp5N3GtHaERfLhJUhVhB809A="
+        }
+      ]
+    },
+    {
       "Route": "images/OIP (1).4wa4qx72oz.jpeg",
       "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\OIP (1).jpeg",
       "Selectors": [],
@@ -5256,7 +5649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 08:05:39 GMT"
+          "Value": "Wed, 02 Apr 2025 08:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5301,7 +5694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Mar 2025 08:05:39 GMT"
+          "Value": "Wed, 02 Apr 2025 08:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5476,6 +5869,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-VbpeKShehcVOct3aaoR2tp50ZqC6kUnW/f6poUU2WhA="
+        }
+      ]
+    },
+    {
+      "Route": "images/tivi.f0njtww33c.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tivi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P3gJso+DlNks0hO32IivUZsuGNy0bZoWknc4rBo76dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0njtww33c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tivi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3gJso+DlNks0hO32IivUZsuGNy0bZoWknc4rBo76dk="
+        }
+      ]
+    },
+    {
+      "Route": "images/tivi.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tivi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P3gJso+DlNks0hO32IivUZsuGNy0bZoWknc4rBo76dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:48:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3gJso+DlNks0hO32IivUZsuGNy0bZoWknc4rBo76dk="
+        }
+      ]
+    },
+    {
+      "Route": "images/tu-lanh-lg-d22mb_1620557793.1d1e9gun45.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-lanh-lg-d22mb_1620557793.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m3iR9rOabrGmQjkaWRX606yAERMsMYOLeAvXIyA1NUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:48:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1d1e9gun45"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tu-lanh-lg-d22mb_1620557793.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m3iR9rOabrGmQjkaWRX606yAERMsMYOLeAvXIyA1NUE="
+        }
+      ]
+    },
+    {
+      "Route": "images/tu-lanh-lg-d22mb_1620557793.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-lanh-lg-d22mb_1620557793.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m3iR9rOabrGmQjkaWRX606yAERMsMYOLeAvXIyA1NUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:48:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m3iR9rOabrGmQjkaWRX606yAERMsMYOLeAvXIyA1NUE="
+        }
+      ]
+    },
+    {
+      "Route": "images/tu-quan-ao-5-buong-2m-x-2m-TQA021.0p869mcijd.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fI0OtT/TAp22OUqRe8g8XXTPl1+gEEwLQOThBsAjqpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p869mcijd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fI0OtT/TAp22OUqRe8g8XXTPl1+gEEwLQOThBsAjqpo="
+        }
+      ]
+    },
+    {
+      "Route": "images/tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fI0OtT/TAp22OUqRe8g8XXTPl1+gEEwLQOThBsAjqpo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 08:01:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fI0OtT/TAp22OUqRe8g8XXTPl1+gEEwLQOThBsAjqpo="
+        }
+      ]
+    },
+    {
+      "Route": "images/vivo.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\vivo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnZKpZCHJC5lY7ozTsb+BKY7S9aZLL/mdKSAKY9TB9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:54:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnZKpZCHJC5lY7ozTsb+BKY7S9aZLL/mdKSAKY9TB9g="
+        }
+      ]
+    },
+    {
+      "Route": "images/vivo.mwynyhethr.jpeg",
+      "AssetFile": "C:\\LTW\\TranVuDienQuan_Buoi4\\TranVuDienQuan_Buoi4\\wwwroot\\images\\vivo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnZKpZCHJC5lY7ozTsb+BKY7S9aZLL/mdKSAKY9TB9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 07:54:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwynyhethr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vivo.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnZKpZCHJC5lY7ozTsb+BKY7S9aZLL/mdKSAKY9TB9g="
         }
       ]
     },

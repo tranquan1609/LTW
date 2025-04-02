@@ -1,10 +1,17 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\banghe.jpeg
 wwwroot\images\bo-3-noi-inox-elmich-trimax-xr-el-3843-1-700x467.jpg
 wwwroot\images\download (2).jpeg
+wwwroot\images\may-giat-electrolux-inverter-ewf9024p5sb-1_1646295011.jpg
+wwwroot\images\maylanh.jpeg
 wwwroot\images\OIP (1).jpeg
 wwwroot\images\OIP (2).jpeg
 wwwroot\images\OIP.jpeg
+wwwroot\images\tivi.jpg
+wwwroot\images\tu-lanh-lg-d22mb_1620557793.jpg
+wwwroot\images\tu-quan-ao-5-buong-2m-x-2m-TQA021.jpg
+wwwroot\images\vivo.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

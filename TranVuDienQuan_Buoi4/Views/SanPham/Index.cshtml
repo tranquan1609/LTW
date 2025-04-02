@@ -3,30 +3,36 @@
     ViewData["Title"] = "Danh sách sản phẩm bán";
     int numOfQuantity = 1;
 }
-<section class="py-2">
-    <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
-
+<section class="py-4">
+    <div class="container px-4 px-lg-5 mt-4">
+        <h2 class="text-center fw-bold mb-4">Danh sách sản phẩm</h2>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
             @foreach (var item in Model)
             {
                 <div class="col mb-5">
-                    <div class="card gap-3" style="width: 18rem">
-                        <img src="@item.ImageUrl" class="card-img-top" alt="..."
-                             style="height: 300px">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                @Html.DisplayFor(modelItem => item.Name)
-                            </h5>
-                            <div class="d-flex">
-                                <span>Price: </span>
-                                <p class="mx-3">@item.Price.ToString("#,##0") Vnđ</p>
+                    <div class="card h-100 shadow-sm border-0 product-card" style="width: 18rem;">
+                        <!-- Hình ảnh sản phẩm -->
+                        <div class="overflow-hidden">
+                            <img src="@item.ImageUrl" class="card-img-top img-fluid" alt="@item.Name" style="height: 280px; object-fit: cover; transition: transform 0.3s ease;">
+                        </div>
+                        <!-- Thông tin sản phẩm -->
+                        <div class="card-body text-center">
+                            <h5 class="fw-bold text-dark">@item.Name</h5>
+                            <div class="d-flex justify-content-center ">
+                                <span class="fw-semibold">Giá: </span>
+                                <p class="text-danger fs-5 fw-semibold mx-3">@item.Price.ToString() $</p>
                             </div>
-                            <a asp-controller="ShoppingCart" asp-action="AddToCart"
-                               asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">
-                                <button class="btn btn-outline-dark">
-                                    <i class="bi-cart-fill me-1"></i> Add to Cart
-                                </button>
-                            </a>
+                        </div>
+                        <!-- Nút thao tác -->
+                        <div class="card-footer bg-white border-0 p-3">
+                            <div class="d-flex flex-column gap-2">
+                                <a asp-area="Admin" asp-controller="Product" asp-action="Display" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm">
+                                    <i class="bi-eye-fill me-1"></i> Xem chi tiết
+                                </a>
+                                <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity=" 1" class="btn btn-primary btn-sm">
+                                    <i class="bi-cart-fill me-1"></i> Them Vao Gio Hang
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -34,3 +40,31 @@
         </div>
     </div>
 </section>
+
+<style>
+    .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 10px;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img:hover {
+        transform: scale(1.1);
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: black;
+    }
+
+    .btn-warning:hover {
+        background-color: #e0a800;
+        border-color: #d39e00;
+        color: black;
+    }
+</style>
