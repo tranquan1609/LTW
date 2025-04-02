@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TranVuDienQuan_API.props" />
+</Project>

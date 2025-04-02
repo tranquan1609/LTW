@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LTW\\TranVuDienQuan_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|c:\\ltw\\tranvudienquan_api\\tranvudienquan_api\\migrations\\20250329062630_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F384A54-3F70-4559-BC6C-7C128283F524}|TranVuDienQuan_API\\TranVuDienQuan_API.csproj|solutionrelative:tranvudienquan_api\\migrations\\20250329062630_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductApiController.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Controllers\\ProductApiController.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Controllers\\ProductApiController.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Controllers\\ProductApiController.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Controllers\\ProductApiController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:30:51.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:29:18.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250329062630_Initial.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Migrations\\20250329062630_Initial.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Migrations\\20250329062630_Initial.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Migrations\\20250329062630_Initial.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Migrations\\20250329062630_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:26:31.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\appsettings.json",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\appsettings.json",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\appsettings.json",
+              "RelativeToolTip": "TranVuDienQuan_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-29T06:24:32.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Program.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Program.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Program.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:23:48.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:23:10.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:22:05.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TranVuDienQuan_API\\Models\\Product.cs",
+              "ToolTip": "C:\\LTW\\TranVuDienQuan_API\\TranVuDienQuan_API\\Models\\Product.cs",
+              "RelativeToolTip": "TranVuDienQuan_API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:21:04.806Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
